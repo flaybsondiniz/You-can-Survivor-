@@ -1,0 +1,43 @@
+#########################################
+##                 S.B.I.              ##
+##    Sistema de Batalhas Integradas   ##
+##                                     ##
+## Autor: Flaybson Diniz               ##
+## email: flaybson_diniz@hotmail.com   ##
+##                                     ##
+## Sistema para batalhas desenvolvido  ##
+##  para RPGs de turno                 ##
+##                                     ##
+#########################################
+
+
+
+class player():
+    def __init__(self, nome, classe):
+        
+        nome = input('Qual seu Nome?')
+        self.nome = nome
+        return nome
+        
+        classe = input('Qual sua Classe?')
+        self.classe = classe
+        return classe
+                     
+
+class novoPlayer():
+    def nP(self, nomeN, classeN):
+        self.nomeN = nome
+        self.classeN = classe
+        return ('Nome do jogador:%s, Classe do Jogador:%s') %(self.nomeN,self.classeN)
+
+print (player(nome,classe))
+x = input('Digite o Nome')
+# x.nomeN
+y = input('Digite a Classe')
+z = (x + y)
+# y.classeN
+#z = novoPlayer(x,y)
+#Print ('Você é %s') %(z)
+print ('Você é %s') %(z)
+
+
