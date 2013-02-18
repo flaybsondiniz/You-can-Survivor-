@@ -41,3 +41,11 @@ z = (x + y)
 print ('Você é %s') %(z)
 
 
+TESTAR
+
+new_player = Player("nome do player")
+print(new_player.nome)
+
+# e pra ver todas as possibilidades do objeto new_player print(new_player.__dir__())
+
+
